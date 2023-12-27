@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Sign In 
+    </title>
+    <link rel="stylesheet" href = "../styles/signin.css">
+  </head>
+  <body>
+    <div class = "container-signin">
+      <div class = "sign-in">
+        <img src = "../icons/youtube-logo.svg" style = "width: 100px; height: 100px;" class = "logo">
+        <h1 style = "text-align: center;">
+          Welcome to Youtube Clone
+        </h1>
+        <input placeholder="Email or phone" type = "text" id = "email" style = "width: 160px; margin-left: 95px; margin-top: 20px;">
+        <input placeholder="Password" type = "password" id = "password" style = "width: 160px; margin-left: 95px; margin-top: 10px;">
+        <button onclick = "signin()" style = "width: 80px; margin-left: 135px; margin-top: 20px;">Sign In</button>
+      </div>
+    </div>
+    <script>
+      function signin (){
+        var email = document.getElementById("email").value;
+        var password = document.getElementById("password").value;
+        if (email == "admin" && password == "admin"){
+          window.location.href = "../index.html"
+        }
+        else{
+          alert("Wrong email or password");
+        }
+      }
+    </script>
+  </body>
+</html>

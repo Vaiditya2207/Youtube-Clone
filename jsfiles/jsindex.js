@@ -80,3 +80,7 @@
     localStorage.setItem("search", quarry); 
     window.location.href = "inner-pages/search.html";
   }
+
+  function signin () {
+    window.location.href = "inner-pages/signin.html";
+  }

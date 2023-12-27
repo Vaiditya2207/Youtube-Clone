@@ -1,0 +1,23 @@
+body {
+}
+
+.sign-in {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+  height: 500px;
+  background-color: rgb(178, 165, 167);
+  margin-top: 170px;
+  margin-right: 100px;
+}
+
+.container-signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 120px;
+  margin-top: 30px;
+}
