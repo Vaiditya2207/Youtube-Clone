@@ -1,5 +1,6 @@
 .thumbnail {
     width: 100%;
+    cursor: pointer;
   }
   
   .video-title {

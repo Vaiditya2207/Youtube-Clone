@@ -20,8 +20,8 @@
         <img class="youtube-logo" src="icons/youtube-logo.svg">
       </div>
       <div class="middle-section">
-        <input class="search-bar" type="text" placeholder="Search">
-        <button class="search-button">
+        <input class="search-bar" type="text" placeholder="Search" id = "searchBar">
+        <button class="search-button" onclick = "searchBox()">
           <img class="search-icon" src="icons/search.svg">
           <div class="tooltip">Search</div>
         </button>
@@ -73,8 +73,8 @@
     <main>
       <section class="video-grid">
         <div class="video-preview">
-          <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/video-1.jpg">
+          <div class="thumbnail-row" id="video-1">
+            <img class="thumbnail-1, thumbnail" src="thumbnails/video-1.jpg" onclick = "click_thumbnail_1()" onmouseover = "setTimeout(mouse_thumbnail_1(1, this), 1000) " onmouseout="mouse_thumbnail_1(2, this)">
             <div class="video-time"></div>
           </div>
           <div class="video-info-grid">
@@ -97,7 +97,7 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/video-2.jpg">
+            <img class="thumbnail-2, thumbnail" src="thumbnails/video-2.jpg" onclick = "click_thumbnail_2()" onmouseover = "setTimeout(mouse_thumbnail_2(1, this), 1000) " onmouseout="mouse_thumbnail_2(2, this)">
             <div class="video-time">8:22</div>
           </div>
           <div class="video-info-grid">
@@ -106,7 +106,7 @@
             </div>
             <div class="video-info">
               <p class="video-title">
-                Try Not To Laugh Challenge #9
+                What The Prisoner's Dilemma Reveals About Life, The Universe, and Everything
               </p>
               <p class="video-author">
                 Veritasium
@@ -120,7 +120,7 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/video-3.jpg">
+            <img class="thumbnail-3, thumbnail" src="thumbnails/video-3.jpg" onclick = "click_thumbnail_3()" onmouseover = "setTimeout(mouse_thumbnail_3(1, this), 1000) " onmouseout="mouse_thumbnail_3(2, this)">
             <div class="video-time">9:13</div>
           </div>
           <div class="video-info-grid">
@@ -143,7 +143,7 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/video-4.webp">
+            <img class="thumbnail-4, thumbnail" src="thumbnails/video-4.webp" onclick = "click_thumbnail_4()" onmouseover = "setTimeout(mouse_thumbnail_4(1, this), 1000) " onmouseout="mouse_thumbnail_4(2, this)">
             <div class="video-time">22:09</div>
           </div>
           <div class="video-info-grid">
@@ -166,7 +166,7 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/video-5.webp">
+            <img class="thumbnail-5, thumbnail" src="thumbnails/video-5.webp" onclick = "click_thumbnail_5()" onmouseover = "setTimeout(mouse_thumbnail_5(1, this), 1000) " onmouseout="mouse_thumbnail_5(2, this)">
             <div class="video-time">11:17</div>
           </div>
           <div class="video-info-grid">
@@ -189,7 +189,7 @@
 
         <div class="video-preview">
           <div class="thumbnail-row">
-            <img class="thumbnail" src="thumbnails/video-6.jpg">
+            <img class="thumbnail-6, thumbnail" src="thumbnails/video-6.jpg" onclick = "click_thumbnail_6()" onmouseover = "setTimeout(mouse_thumbnail_6(1, this), 1000) " onmouseout="mouse_thumbnail_6(2, this)">
             <div class="video-time">15:03</div>
           </div>
           <div class="video-info-grid">
@@ -211,5 +211,8 @@
         </div>
       </section>
     </main>
+    <script src="jsfiles/jsindex.js">
+
+    </script>
   </body>
 </html>
