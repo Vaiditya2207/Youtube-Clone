@@ -76,7 +76,7 @@
     }
   }
   function searchBox() {
-    quarry = document.getElementById("searchBar");
-    a = quarry.value; 
+    quarry = document.getElementById("searchBar").value;
+    localStorage.setItem("search", quarry); 
     window.location.href = "inner-pages/search.html";
   }

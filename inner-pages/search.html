@@ -5,7 +5,10 @@
     </head>
     <body>
         <p>You searched for <span id = "quarry"></span> .</p>
+        <p>But Sorry This Page is in Development</p>
     </body>
     <script>
+        result = localStorage.getItem("search");
+        document.getElementById("quarry").innerHTML = result;
     </script>
 </html>
