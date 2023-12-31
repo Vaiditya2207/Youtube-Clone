@@ -1,11 +1,49 @@
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: lightpink;
-    }
-    .working {
-        background-color: aqua;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: larger;
-    }
+  .video {
+    width: 70vmax;
+    border-radius: 20px;
+    } 
+  
+  .main-body {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+  .video-class {
+    background-color: lightblue;
+    width: 70vmax;
+  }
+  .scroll-class {
+    background-color: lightgreen;
+    flex: 1;
+    padding-top: 10px;
+  }
+  .video-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
+    padding: 6px 0 ;
+  }
+  .name-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .name-sub {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 2px;
+  }
+
+  .subscribe {
+    background-color: rgb(181, 7, 7);
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+
+  .subscribed {
+    background-color: rgb(84, 83, 83);
+    color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+  }

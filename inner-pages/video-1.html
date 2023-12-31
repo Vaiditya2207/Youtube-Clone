@@ -1,10 +1,69 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title></title>
-        <link rel = "stylesheet" href = "../styles/video-1.css">
-    </head>
-    <body>
-        <p class = "working">Still working on this page</p>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 Days at Newton School Of Technology</title>
+  <link type = "image/x-icon" rel = "icon" href = "../title-icon/title-logo.png">
+  <link rel="stylesheet" href="../styles/video-1.css">
+  <link rel="stylesheet" href="../styles/header.css">
+</head>
+<body>
+  <header class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="../icons/hamburger-menu.svg">
+      <img class="youtube-logo" src="../icons/youtube-logo.svg">
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Search" id = "searchBar">
+      <button class="search-button" onclick = "searchBox()">
+        <img class="search-icon" src="../icons/search.svg">
+        <div class= "tooltip">Search</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="../icons/voice-search-icon.svg">
+        <div class="tooltip">Search with your voice</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="../icons/upload.svg">
+        <div class="tooltip">Create</div>
+      </div>
+      <img class="youtube-apps-icon" src="../icons/youtube-apps.svg">
+      <div class="notifications-icon-container">
+        <button class = 'sign-in-button' onclick = "signin()">Sign In</button>
+      </div>
+      </div>
+    </div>
+  </header>
+  <div class="main-body">
+    <div class="video-class">
+      <div class="video-container">
+        <video class="video" src="../video/video-1.mp4" controls autoplay></video>
+      </div>
+      <div class="video-details">
+        <div class="video-title"><span style = "color:blue;">#100DaysWithNST</span>- 100 Days of Innovation at Newton School of Technology| A Journey of Tech Excellence</div>
+        <div class="channel">
+            <div class="name-logo">
+              <div style = "display: flex;">
+              <div class="logo">
+                <img src="../channel-pictures/channel-1.jpeg" style = "width: 45px; border-radius: 30px; margin-left: 4px;">
+              </div>
+              <div class="name-sub">
+                <div class="name">Newton School of Technology</div>
+                <div class="subscribers">9.47k subscribers </div>
+              </div>
+            </div>
+              <button class = "subscribe" onclick = "subscribe()" id = "subscribe">Subscribe</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-class">
+      hello
+    </div>
+  </div>
+  <script src="../jsfiles/video-1.js"></script>
+</body>
 </html>
