@@ -9,7 +9,6 @@
     margin-top: 50px;
   }
   .video-class {
-    background-color: lightblue;
     width: 70vmax;
   }
   .scroll-class {
@@ -46,4 +45,39 @@
     color: white;
     border-radius: 5px;
     margin-right: 10px;
+  }
+
+  .discription {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: lightgrey;
+    border-radius: 15px;
+    margin-top: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding: 2px 6px;
+  }
+
+  .comments {
+    margin-left: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+  }
+
+  .comment-box {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    height: 48px;
+  }
+
+  .default {
+    height: 42px;
+    margin: 3px 6px;
+    border-radius: 28px;
+  }
+
+  .add-comment {
+    flex: 1;
+    width:80px;
   }
