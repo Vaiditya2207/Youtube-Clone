@@ -67,7 +67,6 @@
   .comment-box {
     display: flex;
     flex-direction: row;
-    background-color: lightgrey;
     height: 48px;
   }
 
@@ -79,5 +78,7 @@
 
   .add-comment {
     flex: 1;
-    width:80px;
+    width: 100vh;
+    height: 20px;
+    margin : 12px 10px;
   }
