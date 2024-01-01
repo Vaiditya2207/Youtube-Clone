@@ -11,11 +11,7 @@
   .video-class {
     width: 70vmax;
   }
-  .scroll-class {
-    background-color: lightgreen;
-    flex: 1;
-    padding-top: 10px;
-  }
+
   .video-title {
     font-family: 'Roboto', sans-serif;
     font-size: larger;
@@ -38,6 +34,11 @@
     color: white;
     border-radius: 5px;
     margin-right: 10px;
+    cursor: pointer;
+  }
+
+  .subscribe:hover {
+    background-color: rgb(255, 0, 0);
   }
 
   .subscribed {
@@ -45,6 +46,7 @@
     color: white;
     border-radius: 5px;
     margin-right: 10px;
+    cursor: pointer;
   }
 
   .discription {
@@ -81,4 +83,56 @@
     width: 100vh;
     height: 20px;
     margin : 12px 10px;
+  }
+
+  .youtube-logo {
+    cursor: pointer;
+  }
+
+  .youtube-logo:hover {
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+  }
+
+  .scroll-class {
+    background-color: lightgreen;
+    flex: 1;
+    padding: 10px 10px;
+    margin: 0px 10px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .videoscroll {
+    flex: 1;
+    display: flex;
+    margin-top: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px 10px;
+  }
+ 
+  .ad {
+    flex: 1;
+    display: flex;
+    margin-top: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px 10px;
+    height: 30vmax;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sideVideo {
+    width: 10vmax;
+    border-radius: 12px;
+  }
+
+  .contentScroll {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    padding-left:2px;
   }

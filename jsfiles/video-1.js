@@ -13,3 +13,7 @@ function subscribe() {
     }
 }
 
+function mainPage() {
+    window.location.href = "../index.html"
+}
+
